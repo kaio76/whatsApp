@@ -39,6 +39,11 @@ switch(opcao){
   let grup : Grupo = new Grupo(nom,grupo);
     grupos.push(grupo);
   break;
+  case "allChat":
+    for(let c of grupos){
+       console.log(c.toString, " ");
+    }
+    break;
 
   case "chats":
   for(let i of usuarios){
