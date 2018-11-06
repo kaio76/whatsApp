@@ -10,6 +10,7 @@ let opcao: string = readline.question("Escolha uma opção\n"+
 "allUser - Mostar todos os Usuarios\n"+
 "newChat - Adicionar um Grupo\n"+
 "chats - Mostrar Grupo que um usuario pertence"+
+"allChat" - Mostrar todos os grupos"+                                      
 "invite - Convidar pessoas para o Grupo\n"+
 "leave - Deletar um usuario de um Grupo\n"+
 "zap - Mandar menssagem\n"+
