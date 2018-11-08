@@ -19,4 +19,6 @@ export class Usuario{
   public toString():string{
     return this.nome;
   }
+
+
 }
