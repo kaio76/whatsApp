@@ -20,5 +20,9 @@ export class Menssagem{
       return this.dono;
   }public setDono(dono:Usuario):void{
       this.dono= dono;
+  }public getViu():Usuario[]{
+      return this.viu;
+  }public setViu(viu:Usuario[]):void{
+      this.viu= viu;
   }
 }
